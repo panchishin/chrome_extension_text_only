@@ -1,9 +1,9 @@
 {
-  "name": "Injecta",
+  "name": "Textonly",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Injecting stuff",
-  "homepage_url": "http://danharper.me",
+  "description": "Extract paragraph text",
+  "homepage_url": "",
   "background": {
     "scripts": [
       "background.js"
@@ -11,7 +11,7 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Inject!"
+    "default_title": "TEXT!"
   },
   "permissions": [
     "https://*/*",
